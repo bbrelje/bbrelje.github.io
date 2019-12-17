@@ -25,7 +25,37 @@
 	<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 <div class="blog-body">
-    {{ content }}
+	<!-- Full title at h2
+		 date, author
+		 Snippet
+		 Read more link
+		 Comment counter
+	-->
+	{{ content }}
+
+	{% for post in site.posts %}
+	<div class="blog-intro">
+			<a class="blog-post-link" href="{{ post.url }}">
+				<h2>{{ post.title }}</h2>
+			</a>
+			{% if post.date %}
+			<div class="meta date">
+					{{ post.date | date: '%B %d, %Y' }}  by {{post.author}}
+			</div>
+			{% else %}
+			<div class="meta date">
+					by {{post.author}}
+			</div>
+			{% endif %}
+			<div class="block-paragraph">
+				{{post.excerpt}}
+			</div>
+			<br>
+			<a href="{{ post.url }}">More &raquo;</a> <br>
+			<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.disqus_uid}}">No comments</a>
+		</div>
+		<hr>
+	{% endfor %}
 </div>
 </div>
 </div>
