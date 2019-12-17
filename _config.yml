@@ -28,8 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
 twitter_username: BenBrelje_says
 github_username:  bbrelje
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+tag_page: '/blog/tags'
+category_page: '/blog/categories'
 
 # Build settings
 theme: minima
