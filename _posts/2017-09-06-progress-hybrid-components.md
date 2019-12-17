@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_legacy
 author: Ben Brelje
 title: Progress in hybrid-electric drivetrain components
 date: 2017-09-06

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_legacy
 author: Ben Brelje
 title: Aerodynamics of the Winter Olympics - Part One (Speed Skating)
 date: 2018-01-29

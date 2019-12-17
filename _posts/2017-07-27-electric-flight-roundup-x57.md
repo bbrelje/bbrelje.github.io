@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_legacy
 author: Ben Brelje
 title: "Electric Flight Roundup: More details on the NASA X-57 Maxwell"
 date: 2017-07-27

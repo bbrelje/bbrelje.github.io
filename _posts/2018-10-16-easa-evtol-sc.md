@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_legacy
 author: Ben Brelje
 title: A quick look at the proposed EASA eVTOL rule
 date: 2018-10-16

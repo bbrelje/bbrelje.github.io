@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_legacy
 author: Ben Brelje
 title: "Weekly Roundup: Airbus Vahana is number-crunching away"
 date: 2017-06-21

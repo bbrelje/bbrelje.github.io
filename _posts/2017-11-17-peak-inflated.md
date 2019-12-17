@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_legacy
 author: Ben Brelje
 title: Have electric aircraft reached the peak of inflated expectations?
 date: 2017-11-17

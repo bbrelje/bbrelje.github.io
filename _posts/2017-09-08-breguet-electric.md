@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_legacy
 author: Ben Brelje
 title: Deriving the modified Breguet range equation for a hybrid-turboelectric aircraft
 date: 2017-09-08

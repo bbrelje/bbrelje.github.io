@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_legacy
 author: Ben Brelje
 title: "E-Flight Roundup: Airbus internal competition heating up"
 date: 2017-11-18
