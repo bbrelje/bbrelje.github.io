@@ -4,7 +4,7 @@ author: Ben Brelje
 title: A quick look at the proposed EASA eVTOL rule
 date: 2018-10-16
 disqus_uid: 000100010001000B
-permalink: /blog/quick-look-proposed-easa-evtol-rule
+permalink: /blog/quick-look-proposed-easa-evtol-rule/
 header_image: https://farm2.staticflickr.com/1930/44456413965_c0a85a98e7_h.jpg
 tags: [regulation, EASA, E-VTOL, electric propulsion]
 categories: [electric flight]
