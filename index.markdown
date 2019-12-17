@@ -6,13 +6,4 @@ layout: page
 title: Home
 ---
 
-## Welcome
-
-Welcome to my new jekyll site
-
-Here is some inline math: $$y=mx+b$$
-Here is some separate math:
-
-$$\sum \frac{a}{b}$$
-
-And that is all.
+Welcome! This site serves as a hub for my research into design optimization of electric aircraft, and for collating and sharing developments in the fast-paced world of electric flight. Please check out the blog for the latest content or find out more about me.
