@@ -25,12 +25,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ben Brelje's personal research blog on the topics of electric flight, scientific computing,
   and multidisciplinary design optimization.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "bbrelje.github.io"
+url: "brelje.net"
 twitter_username: BenBrelje_says
 github_username:  bbrelje
+linkedin_username: benjaminbrelje
+disqus_username: bbrelje
+disqus_site: "https://brelje.net"
 tag_page: '/blog/tags'
 category_page: '/blog/categories'
-
+default_author: Ben Brelje
 # Build settings
 theme: minima
 

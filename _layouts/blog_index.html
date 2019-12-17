@@ -34,17 +34,27 @@
 	{{ content }}
 
 	{% for post in site.posts %}
+	{% unless post.disqus_uid %}
+	{% capture disqus_uid_value %}{{post.id}}{% endcapture %}
+	{% else %}
+	{% capture disqus_uid_value %}{{post.disqus_uid}}{% endcapture %}
+	{% endunless %}
+	{% unless post.author %}
+	{% capture author_value %}{{site.default_author}}{% endcapture %}
+	{% else %}
+	{% capture author_value %}{{post.author}}{% endcapture %}
+	{% endunless %}
 	<div class="blog-intro">
 			<a class="blog-post-link" href="{{ post.url }}">
 				<h2>{{ post.title }}</h2>
 			</a>
 			{% if post.date %}
 			<div class="meta date">
-					{{ post.date | date: '%B %d, %Y' }}  by {{post.author}}
+					{{ post.date | date: '%B %d, %Y' }}  by {{author_value}}
 			</div>
 			{% else %}
 			<div class="meta date">
-					by {{post.author}}
+					by {{author_value}}
 			</div>
 			{% endif %}
 			<div class="block-paragraph">
@@ -52,7 +62,7 @@
 			</div>
 			<br>
 			<a href="{{ post.url }}">More &raquo;</a> <br>
-			<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.disqus_uid}}">No comments</a>
+			<a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{disqus_uid_value}}">No comments</a>
 		</div>
 		<hr>
 	{% endfor %}

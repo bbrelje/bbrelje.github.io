@@ -1,9 +1,9 @@
 {% include header.html %}
 
-
-
 {% unless page.author %}
-  {% assign page.author = 'Ben Brelje' %}
+{% capture author_value %}{{site.default_author}}{% endcapture %}
+{% else %}
+{% capture author_value %}{{page.author}}{% endcapture %}
 {% endunless %}
 
 {% if page.header_image %}
@@ -19,9 +19,9 @@
 					<h1>{{ page.title }}</h1>
                     <hr class="small">
                     {% if page.date %}
-                    <span class="subheading">{{ page.date | date: '%B %d, %Y' }}  by {{page.author}}</span>
+                    <span class="subheading">{{ page.date | date: '%B %d, %Y' }}  by {{author_value}}</span>
                     {% else %}
-                    <span class="subheading">{{page.author}}</span>
+                    <span class="subheading">{{author_value}}</span>
                     {% endif %}
 				</div>
 			</div>
@@ -61,7 +61,11 @@
                             </small>
                     {% endif %}
                 </div>
-
+        {% unless page.disqus_uid %}
+        {% capture disqus_uid_value %}{{page.id}}{% endcapture %}
+        {% else %}
+        {% capture disqus_uid_value %}{{page.disqus_uid}}{% endcapture %}
+        {% endunless %}
         <div class="tags-and-comments">
             <hr class="small">
             <div id="comments" class="comments">
@@ -73,14 +77,14 @@
                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
                     var disqus_config = function () {
-                    this.page.url = 'https://brelje.net{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
-                    this.page.identifier = '{{ page.disqus_uid }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                    this.page.url = '{{site.disqus_site}}{{ page.url }}';  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = '{{ disqus_uid_value }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                     this.page.title = '{{page.title}}'
                     };
 
                     (function() { // DON'T EDIT BELOW THIS LINE
                     var d = document, s = d.createElement('script');
-                    s.src = 'https://bbrelje.disqus.com/embed.js';
+                    s.src = 'https://{{site.disqus_username}}.disqus.com/embed.js';
                     s.setAttribute('data-timestamp', +new Date());
                     (d.head || d.body).appendChild(s);
                     })();

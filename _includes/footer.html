@@ -6,7 +6,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
 						<li>
-                            <a href="https://www.linkedin.com/in/benjaminbrelje/">
+                            <a href="https://www.linkedin.com/in/{{site.linkedin_username}}/">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -14,39 +14,23 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/BenBrelje_says">
+                            <a href="https://twitter.com/{{site.twitter_username}}">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
-                        <!-- <li>
-                            <a href="https://bbrelje.wordpress.com">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-wordpress fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li> -->
                         <li>
-                            <a href="https://github.com/bbrelje">
+                            <a href="https://github.com/{{site.github_username}}">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
-                        <!-- <li>
-                            <a href="https://gitlab.com/benjamin.brelje">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li> -->
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; 2019 Benjamin Brelje | All Rights Reserved</p>
+                    <p class="copyright text-muted">Copyright &copy; 2019 {{site.default_author}} | All Rights Reserved</p>
                 </div>
             </div>
         </div>
@@ -65,7 +49,7 @@
     <!-- Theme JavaScript -->
     <script src="{{ "/assets/js/clean-blog.min.js" | prepend: site.baseurl  }}"></script>
 
-	<script id="dsq-count-scr" src="//bbrelje.disqus.com/count.js" async></script>
+	<script id="dsq-count-scr" src="//{{site.disqus_username}}.disqus.com/count.js" async></script>
 
 </body>
 
