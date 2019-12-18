@@ -123,7 +123,7 @@ Two similar motorglider conversions projects were completed in Europe. The **DLR
 
 <iframe width="560"  class="center-block" height="315" src="https://www.youtube.com/embed/B46iDZUya3s?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The **DLR HY4** (2016) is a striking four-seat tandem configuration which claims to be the first hydrogen-powered "passenger airplane." It has **80kW** fuel cell power, by far the most of any existing aircraft. It is a converted Pipistrel Taurus G4 (possibly the same airframe as the G4 all-electric aircraft that won the NASA Green Flight challenge, though I can't confirm this) [[15](https://www.aerospace-technology.com/projects/hy4-aircraft/)]
+The **DLR HY4** (2016) is a striking four-seat twin-fuselage configuration which claims to be the first hydrogen-powered "passenger airplane." It has **80kW** fuel cell power, by far the most of any existing aircraft. It is a converted Pipistrel Taurus G4 (possibly the same airframe as the G4 all-electric aircraft that won the NASA Green Flight challenge, though I can't confirm this) [[15](https://www.aerospace-technology.com/projects/hy4-aircraft/)]
 
 ![](https://drive.google.com/uc?id=1PBm6stN8n0C28YIxGLxv8abvbS4Swvkm){: .img-responsive style="width: 100%"}
 
