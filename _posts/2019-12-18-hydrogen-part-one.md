@@ -23,7 +23,7 @@ where $$H_v$$ is the fuel heating value (a.k.a. specific energy), $$\eta$$ is th
 We see that the range is, to first order, linear with specific energy of the fuel. In this simple analysis, hydrogen looks about three times better than kerosene on range!
 Hydrogen also burns very easily, which improves engine operability at the corners of the operating envelope (especially at high altitude).
 
-Hydrogen also burns cleanly, producing only water vapor and heat. In the modern era, the environmental benefits of hydrogen fuel could be its greatest selling point (assuming that it can be generated in a sustainable way).
+Hydrogen also burns cleanly, producing only water vapor and heat (when burned very lean - NOx is a concern otherwise). When used in a fuel cell, no carbon emissions are produced. In the modern era, the environmental benefits of hydrogen fuel could be its greatest selling point (assuming that it can be generated in a sustainable way).
 
 In reality, the range benefit is greatly reduced due to the low density of hydrogen, which causes the airframe to grow (increasing weight and drag). I will discuss these tradeoffs in the next post.
 
