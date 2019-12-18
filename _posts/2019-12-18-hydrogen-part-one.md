@@ -4,7 +4,7 @@ title: "Hydrogen-powered aviation part 1: a history"
 header_image: https://drive.google.com/uc?id=1m7veVzNxKp_1OGRatHtzCPyJSvki7JFf
 tags: [hydrogen, NASA, pipistrel, dlr, fuel cell]
 categories: [electric flight]
-permalink: /blog/hydrogen-powered-aviation-part-one-history
+permalink: /blog/hydrogen-powered-aviation-part-one-history/
 ---
 
 Hydrogen fuel for aircraft, while seemingly a recent idea, is almost as historic as jet aviation itself.
