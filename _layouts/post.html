@@ -42,7 +42,7 @@
 
 <div class="meta">
         <div class="tags">
-                {% if page.tags %}
+                {% if page.tags[0] %}
                 <small>
                     Tags:
                         {% for tag in page.tags %}
@@ -52,7 +52,7 @@
                 {% endif %}
             </div>
             <div class="categories">
-                    {% if page.categories %}
+                    {% if page.categories[0] %}
                     <small>
                         Categories:
                             {% for category in page.categories %}
