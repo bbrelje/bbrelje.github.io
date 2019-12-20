@@ -38,3 +38,47 @@ jQuery(document).ready(function($) {
             });
     }
 });
+//Function to load plotly.js on demand and show a visualization
+$(function(){
+    $('.btn-hidden-viz').on('click', function() {
+    var thebutton = $(this)
+    var plotlyuid = $(this).data('plotlyUid');
+    var plotlysrc = $(this).data('plotlySrc');
+    var spinnerid = plotlyuid.concat('-spinner');
+    var height = $(this).data('height');
+    var width = $(this).data('width');
+    $('<div id="'.concat(plotlyuid,'" class="plotly-graph-div"></div>')).insertBefore(thebutton);
+    window.PlotlyConfig = {MathJaxConfig: 'local'};
+    $.ajax({
+      timeout: 10000,
+      url: 'https://cdn.plot.ly/plotly-latest.min.js',
+      dataType: 'script',
+      cache: true, // or get new, fresh copy on every page load
+      beforeSend: function () {
+          console.log('here');
+          thebutton.html('<span id=\"'.concat(spinnerid,'\"></span> Loading'));
+          $('#'.concat(spinnerid)).attr("class","glyphicon glyphicon-refresh glyphicon-refresh-animate");
+        },
+      success: function() {
+        // Callback
+        window.PLOTLYENV=window.PLOTLYENV || {};
+        $.ajax({
+          url: plotlysrc,
+          dataType: 'script',
+          timeout: 5000,
+          cache: true, // or get new, fresh copy on every page load
+          success: function() {
+            // Callback
+            $("#".concat(plotlyuid)).attr("style","height:".concat(height,"; width:",width,";"));
+            thebutton.remove();
+          },
+          error: function() {
+              thebutton.html("error loading visualization");
+          }
+        });
+      },
+      error: function() {
+         thebutton.html("error loading visualization");
+      }
+    });
+    });})
