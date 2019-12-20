@@ -45,7 +45,7 @@ I'll briefly cover the format plotly expects to see.
 
 The `Mesh3d` constructor takes several arguments, including the following geometry data:
 - **x, y, z** - Lists of coordinates of the vertices of your surface (all $$N_v$$ by $$1$$ numpy arrays, where $$N_v$$ is the number of vertices)
-- **intensity** - The quantity to plot at each vertex point using a color scale. For example, $C_p$. It should be the same dimensions as x, y, z since each value corresponds to a point, not a face.
+- **intensity** - The quantity to plot at each vertex point using a color scale. For example, $$C_p$$. It should be the same dimensions as x, y, z since each value corresponds to a point, not a face.
 - **i, j, k** - Lists of vertex indices which comprise the triangles of your surface (all $$N_t$$ by $$1$$ numpy integer arrays, where $$N_t$$ is the number of triangles). The maximum value of the entries of i, j, k should be $$N_v$$.
 
 Alternatively, you can provide a point cloud (x, y, z only) and plotly can try to construct a Delaunay triangulation of the object, and the plotly `Mesh3d` example page provides an example of this. However, I don't recommend this approach if you have CFD data since you already know the structure of the mesh.
