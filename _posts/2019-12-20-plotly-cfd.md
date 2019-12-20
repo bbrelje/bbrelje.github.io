@@ -56,7 +56,7 @@ It is highly capable software, but it's also very expensive.
 We would like to be able to show interactive, volume-rendered CFD data to the general public without the need for a local Tecplot installation.
 
 1. Open your surface pressure distribution file in Tecplot and ensure the data field you want to plot is available.
-In this case, we'll be plotting surface pressure coefficient, $C_p$.
+In this case, we'll be plotting surface pressure coefficient, $$C_p$$.
 2. Create a new variable by selecting `Data-Alter-Specify Equations`. In the pop-up window, input `{p3D}={myvarname}` where `myvarname` is the parameter you want to plot. Select `New var location` to be `Node`. Then click `Compute`.
 3. Export the data by selecting `File-Write Data`. In the pop-up window, choose a file name, keeping the `.dat` file extension and click `Save`. In the next dialog, select `X`, `Y`, `Z`, and `p3d` in the `Variable(s)` section (*in that order*). Choose the `Zone(s)` you want to plot (one or more is OK). Choose `point` for the format (*important*).
 
@@ -76,7 +76,7 @@ I wrote a Python script to convert a structured Tecplot `.dat` file into the x, 
 The main challenge is that structured surface mesh data usually consists of quadrilaterals, whereas plotly wants triangles.
 Therefore we have to triangulate each quad, which is trivial (you just bisect it corner to corner).
 I ensured that the triangle normal vectors are pointing in a consistent direction which helps plotly render correctly.
-Note that Tecplot saves its output so that i changes fastest, then j, then k (though for surface data k should always be 0).
+Note that Tecplot saves its output so that i changes fastest, then j, then k (though for surface data k should always be 1).
 
 {% highlight python %}
 import sys
