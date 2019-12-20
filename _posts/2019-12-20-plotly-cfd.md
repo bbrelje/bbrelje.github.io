@@ -155,6 +155,11 @@ The plotly rendering engine itself is loaded as a huge Javascript file called `p
 We use the option `include_plotlyjs='cdn'`, which will automatically download `plotly.js` from the internet instead of bundling it with the HTML file (which greatly increases its size).
 
 {% highlight python %}
+import sys
+import numpy as np
+import re
+import plotly.graph_objects as go
+import plotly.io as pio
 def generate_plotly_cfd(filename):
     # parse the tecplot structured data file into plotly format
     x, y, z, p, vert1, vert2, vert3 = parse_tecplot_structured(filename)
