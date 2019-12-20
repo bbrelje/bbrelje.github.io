@@ -132,4 +132,4 @@ DLR HY4 demonstrator on its maiden flight in 2016 [[15](https://www.aerospace-te
 
 ### Summary
 
-While electric propulsion has been highly visible in the press, hydrogen-based aircraft propulsion has a longer history and is arguably more practical in the current state. In my next post, I will compare the rate of progress of hydrogen fuel cells and all-electric systems and identify key performance measures which are currently limiting the potential usefulness of hydrogen for aircraft.
+While electric propulsion has been highly visible in the press, hydrogen-based aircraft propulsion has a longer history and, depending on the mission objectives, arguably more practical in the current state. In my next post, I will compare the rate of progress of hydrogen fuel cells and all-electric systems and identify key performance measures which are currently limiting the potential usefulness of hydrogen for aircraft.
