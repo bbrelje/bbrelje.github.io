@@ -187,7 +187,7 @@ Below the line, you will need to take risk in order to have a chance of outperfo
 
 **With more than one opponent, unless you are several standard deviations better than average, you still should use a high-variance strategy.**
 The number of opponents, their skill, and their variance, all require you to have even higher skill in order to justify taking the safe approach.
-Because of the power in the integral expression I can't figure out whether this asymptotes at high levels, but clearly the curve flattens out somewhat at very large numbers of opponents:
+Because of the power in the integral expression I can't say for certain what happens for infinite players using numerical integration, but the curve sure looks logarithmic to me.
 
 ![](https://drive.google.com/uc?id=1yHyODrVzkFHSZGQVinAbLrxQ13A9VSzo){: .img-responsive style="width: 76%" .center-block}
 
