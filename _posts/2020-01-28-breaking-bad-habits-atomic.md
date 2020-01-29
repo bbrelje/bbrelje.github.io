@@ -44,7 +44,7 @@ Clear argues that good habits begin with understanding ones' core values. He sug
 
 Everybody wants to be a winner, but most of us end up losing. Clear argues that the difference is a combination of luck and having a "system". A person's system consists of their beliefs, their environment, their habits (basically, anything within one's control).
 
-Nobody wins with a bad system, and we can't control luck, so the best we can do is optimize our system. This is why it is important to systematically cultivate habits that are designed to maximize my chances of reaching my goals. Being goal-oriented can also hamper happiness by narrowly defining what success looks like.
+Nobody wins with a bad system. We can't control luck, so the best we can do is optimize our system. This is why it is important to systematically cultivate habits that are designed to maximize my chances of reaching my goals. Being goal-oriented can also hamper happiness by narrowly defining what success looks like.
 
 ### A habit is a four-step cycle
 
@@ -69,12 +69,11 @@ The main thesis of the book is that we can target each step in the habit loop wi
 
 > The most dangerous items on your to-do list are the ones that look like opportunities, but are actually distractions.
 
-
 On the other hand, it is also possible to be too focused on prioritizing that we don't actually do anything. Clear uses an anecdote from a photography class. The instructor told half the class that he would assign their grade for the semester based only on one submitted photo. These students needed to produce one "perfect" photo. The other half would be graded on the quantity of "good" photos they could produce.
 
 The teacher found that the best photos of the "quantity" group were actually better than the "quality" group's best effort. Instead of overthinking how to create a perfect photo, they were practicing different ideas and accumulating opportunities to capture a great one.
 
-This insight really resonates with me. I have a tendency to be avoid duplicating others' efforts at all costs. This can be a good thing, but I probably spend too much time trying to coordinate and literature search and too little time actually doing research blind to the possibility that someone else might be working on a similar idea.
+This insight really resonates with me. I have a tendency to be avoid duplicating others' efforts at all costs. This can be a good thing, but I probably spend too much time trying to coordinate and literature search and too little time actually doing research, blind to the possibility that someone else might be working on a similar idea.
 
 ### Discounting and delayed gratification
 
@@ -88,7 +87,7 @@ Clear suggests starting from core values and identity when attempting to improve
 
 > Decide the type of person you want to be, then prove it to yourself with small wins
 
-The example Clear uses (from his personal experience) is writing. He decided that he wanted to be a writer, so he started a habit of writing an article twice a week on his personal website. Eventually, he wrote prolifically and developed a major following. Along the way, he became a writer.
+The example Clear uses (from his personal experience) is writing. He decided that he wanted to be a writer, so he started a habit of writing an article twice a week on his personal website. Eventually, he wrote prolifically and developed a major following. Along the way, he *became* a writer.
 
 An example for someone who wants to be a "researcher" might be publishing a technical blog post, then a conference paper, then a journal paper, then a dissertation. A dissertation seems like a huge undertaking so it is important to find ways to create small wins along the way.
 
@@ -96,7 +95,7 @@ An example for someone who wants to be a "researcher" might be publishing a tech
 
 **"Make It Obvious"**
 
-Be extremely specific when intending a new habit. You can use the form "I will (behavior) at (time) in (location)". Instead of saying "I shouldn't play on my phone in the morning" say "When I wake up in the morning, I will get out of bed right away"
+Be extremely specific when intending a new habit. You can use the form **"I will (behavior) at (time) in (location)"**. Instead of saying "I shouldn't play on my phone in the morning" say "When I wake up in the morning, I will get out of bed right away"
 
 Use **habit stacking** which means starting a new habit after an existing one. For example, "After I walk in the door, I will put my shoes away immediately". This provides a regular cue.
 
@@ -133,6 +132,8 @@ Clear also states that creating habit "streaks" is inherently satisfying. Even i
 I want to highlight the last two because I think they are the most useful.
 
 **Increasing friction** - Humans are fundamentally lazy and we will avoid using energy when we can. It is important to increase the barrier to repeating a bad habit. For example, if I play on my phone when I get up, I should locate my phone away from my bed so I have to get out of bed in order to turn my alarm off.
+
+A great tip I found (outside the book) to help reduce phone distraction: I moved Twitter, Facebook, and YouTube into a "MindlessGarbage" folder on the third page of iOS. This reminds me of the opportunity cost and adds friction to mindless browsing.
 
 A **commitment device** is a technology or procedure which restricts our future choices. Some examples from the book:
 
@@ -192,4 +193,4 @@ Once I developed the habits of exercising, I started optimizing the workouts (e.
 While I am generally skeptical of self-help productivity books, I actually thought *Atomic Habits* was a reasonably actionable and useful book. I'd recommend it - it's available for a discounted price if you visit James Clear's website and download the first chapter for free.
 
 #### Sidenote
-I want to write more on this site, but I tend to be a perfectionist and it takes me way too much time to produce something. This article took me 1:58 to create, start to finish, much less than my previous article. If I can get even faster, then I will want to write more often and the experience will compound!
+I want to write more on this site, but I tend to overthink things and it takes me way too much time to produce something. This article took me 1:58 to create, start to finish, much less than my previous article. If I can get even faster, then I will want to write more often and the experience will compound!
