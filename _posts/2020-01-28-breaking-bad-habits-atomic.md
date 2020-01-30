@@ -172,7 +172,7 @@ He also suggests doing an [**Integrity Report**](https://jamesclear.com/integrit
 
 I plan to start doing these. I really admire that James Clear posts these publicly on his website, which is a sort of accountability partner and commitment device.
 
-## Case Study: Exercising
+## Case Study 1: Exercising
 
 I think one habit I do well is staying fit. I am a trail runner, cyclist, and cross-country skier. I think part of the reason is that I have a good system.
 
@@ -187,6 +187,31 @@ I used to struggle with motivation to strength train and my upper body used to b
 I also enjoyed spending time with my teammates at the gym, and was accountable to them for showing up. This year, I even volunteered to lead the workouts, meaning I *cannot* skip them even if I don't feel like going. I am now much stronger than I was two years ago.
 
 Once I developed the habits of exercising, I started optimizing the workouts (e.g. with heart-rate data) and being more deliberate about the exercise science.
+
+## Case Study 2: Too much Twitter
+
+I definitely need to reduce my use of Twitter, as it is addictive and detracts from getting actual work done during the day.
+I have tried website blockers but they don't work on Linux and are too easy to defeat using the Task Manager in Windows.
+
+Using the Habit Loop model to analyze this habit:
+
+- **Cue** - I tend to surf Twitter whenever I take a lunch break at my desk but I have trouble stopping after I'm done eating. I also surf on my phone when there is downtime.
+- **Craving** - Why do I surf Twitter? Starting with identity, I am a person who enjoys learning new things. I follow smart people on Twitter so my feed is a constant stream of new and interesting facts.
+- **Response** - It is basically frictionless to get on my phone or browser and scroll down for as much time as exists during the day.
+- **Reward** - I get immediate satisfaction in the form of new facts (when reading) and likes / retweets (when posting)
+
+Here are the strategies I plan to use to break this habit.
+
+- **Replace bad habit with good** - To fulfill the craving of learning new info, I will read more papers and books.
+- **Eliminate cue** - I will not surf during lunch and will instead read a paper or book until I'm finished eating, or eat with other people.
+- **"Two-minute" rule** - I will start small and block out 15 minutes of the work day where I will not use social media. I will add 15 minutes per work day until I do not use it at all during working hours.
+- **Habit tracking** - I will use a progress bar in my journal and physically black out each new 15-minute interval until the day is blacked out. I will track compliance using a daily checkbox in my journal.
+- **Accountability partner 1** - I will show my habit tracker at the weekly lab meeting whether or not I have kept the streak.
+- **Accountability partner 2** - I will update this post to reflect my success or failure in breaking this habit.
+- **Increased friction 1** - I moved my nightstand four feet further from my bed so I cannot reach my phone in the morning, unless I physically get up.
+- **Increased friction 2** - I moved the Twitter app to the last page of iOS and put it in a folder marked "Mindless Garbage".
+
+I think using these steps will probably lead to the results I want.
 
 ## Conclusion
 
