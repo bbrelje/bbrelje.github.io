@@ -12,7 +12,7 @@ I am keenly aware of several of my notable bad habits and I really want to break
 
 - Playing on my phone instead of getting out of bed in the morning
 - Letting emails fester in my inbox for weeks until it's too awkward to respond
-- Getting distracted on social media (in particular, Twitter) during the day when I should be working
+- Getting distracted on social media (in particular, Twitter) during the day when I should be working on my dissertation research
 
 My PhD advisor mentioned the book *Atomic Habits* by [James Clear](https://jamesclear.com/) on a number of occasions lately so I figured I would give it a try.
 
