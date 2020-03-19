@@ -37,7 +37,7 @@ category_page: '/blog/categories'
 default_author: Ben Brelje
 # Build settings
 theme: minima
-
+excerpt_separator: "<!--more-->"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

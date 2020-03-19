@@ -14,7 +14,6 @@ We generally use purpose-built desktop applications such as Tecplot or Ensight t
 However, the software is expensive and this makes it difficult to share results (other than in simple 2D renderings).
 In this post, I will demonstrate how to create web-based, interactive, 3D visualizations of surface pressure data using a free and open-source software stack.
 
-<!--more-->
 Check out this example result from one of my earlier research papers! (*[Flexible Formulation of Spatial Integration Constraints in Aerodynamic Shape Optimization
 ](https://arc.aiaa.org/doi/abs/10.2514/6.2019-2355)*)
 
@@ -25,6 +24,7 @@ data-height="100%"
 data-width="100%">
 Click to load
 </button>
+<!--more-->
 
 ### Intro to Plotly
 I'm very impressed with the [plotly](https://plot.ly/python/) graphing library for Python.

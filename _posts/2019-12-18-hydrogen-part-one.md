@@ -10,8 +10,6 @@ permalink: /blog/hydrogen-powered-aviation-part-one-history/
 Hydrogen fuel for aircraft, while seemingly a recent idea, is almost as historic as jet aviation itself.
 This post, the start of a series on hydrogen power for aviation applications, will dive into the history of hydrogen-powered flight, from the secretive days of the Cold War to the clean power demonstrator projects of the present day.
 
-<!--more-->
-
 ### Theoretical background
 Hydrogen has long seemed attractive to aircraft designers as a fuel source because it has desirable physical properties. Compared to kerosene jet fuel, it holds tremendous energy per unit weight: hydrogen measures as high as **142 MJ/kg**, while jet fuel holds about 42 MJ/kg. This promises longer range.
 Per the Breguet range equation:
@@ -26,6 +24,7 @@ Hydrogen also burns very easily, which improves engine operability at the corner
 Hydrogen also burns cleanly, producing only water vapor and heat (when burned very lean - NOx is a concern otherwise). When used in a fuel cell, no carbon emissions are produced. In the modern era, the environmental benefits of hydrogen fuel could be its greatest selling point (assuming that it can be generated in a sustainable way).
 
 In reality, the range benefit is greatly reduced due to the low density of hydrogen, which causes the airframe to grow (increasing weight and drag). I will discuss these tradeoffs in the next post.
+<!--more-->
 
 ### NACA's Project Bee
 
