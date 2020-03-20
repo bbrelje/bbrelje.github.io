@@ -92,7 +92,7 @@ If the tests pass, an image with our software pre-installed is pushed to Docker 
 Users can check out that image and have ready access to all of our open source codes in pre-built form, greatly reducing the learning curve and potential for frustration.
 
 Here's an example of the utility of this approach.
-A few weeks ago, a postdoc in our lab gave a CFD tutorial.
+A few weeks ago, a research scientist in our lab gave a CFD tutorial.
 The course was only a few hours long, but it started with pulling an image with the pre-built software and environment from Docker hub.
 Users on all flavors of Linux, Mac, and even Windows could then start from a known, working environment with everything set up correctly.
 It enabled the tutorial to be hands-on instead of a lecture.
@@ -120,11 +120,17 @@ Inside the container, your application relies on the same MPI libraries that it 
 Processor and communication performance are both critical to massively parallel applications, and in order to use containers on HPC, we need to ensure that no compromise is made here.
 Several papers and presentations (e.g. [this](https://insidehpc.com/2019/06/benchmarking-mpi-applications-in-singularity-containers-on-traditional-hpc-and-cloud-infrastructures/) one from ETH Zurich and [this](https://sc19.supercomputing.org/proceedings/tech_poster/poster_files/rpost227s2-file3.pdf) one from Los Alamos) have claimed that the overhead associated with a properly-configured Singularity container is basically nonexistent, but I wanted to verify this claim myself.
 
+
+![](https://drive.google.com/uc?id=1TvPRFqoEadfxvq-ujDjwf1oQdMAzQa7r){: .img-responsive style="width: 100%"}
+
+NASA CRM mesh for benchmark case - 3.1M cells
+{: .caption }
+
 I set up two tests to compare a container against "bare metal" (no container). 
 The first was Intel's MPI benchmark suite, IMB-MPI1, which is distributed with Intel MPI 2018 and later.
 This tests the communication bandwidth.
 The second test was a CFD analysis using my lab's [ADflow](https://github.com/mdolab/adflow) solver.
-The test case is the NASA Common Research Model (CRM), which is an open model similar to the Boeing 777.
+The test case is the NASA Common Research Model (CRM) wing, which is an open model similar to the Boeing 777.
 The mesh has 3.1M cells. 
 I ensured that the same compilers, compiler flags, and dependency libraries were used in both cases to make sure the test is 'apples to apples'.
 
