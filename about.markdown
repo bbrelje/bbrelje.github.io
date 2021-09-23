@@ -6,18 +6,16 @@ header_image: https://c1.staticflickr.com/9/8281/29092794151_02f5e638b3_h.jpg
 ---
 
 ### About Ben
-My name is Ben Brelje (BREHL-jee) and I'm a Ph.D. student and NSF research fellow at the University of Michigan Multidisciplinary Design Optimization Lab (MDOlab). I'm currently on educational leave from Boeing where I am a configuration design engineer with Boeing Research and Technology.
+My name is Ben Brelje (BREHL-jee) and I'm an aerospace engineer. In a nutshell, I create simulation and optimization tools to foster the next generation of aircraft.  Currently, I am a multidisciplinary optimization engineer with an electric aviation startup, Joby Aviation. 
 
-In a nutshell, I create simulation and optimization tools to foster the next generation of aircraft. I consider myself a hybrid aero-software-systems engineer. My active research areas include design optimization of electric and hybrid-electric aircraft as well as high-fidelity MDO with spatial integration constraints.
+I hold a Ph.D. in Aerospace Engineering and Scientific Computing from the University of Michigan Multidisciplinary Design Optimization Lab (MDOlab) where I was also an NSF Graduate Research Fellow. I previously earned Master's and Bachelor's degrees in Aerospace Engineering at Michigan and a systems engineering certificate from MIT.
 
-From 2015 to 2017 I worked for Boeing Commercial Airplanes Product Development, running MDO trade studies on jet transport aircraft concepts. Before that, I was a full-time rotational engineer with Boeing's Engineering Career Foundation Program, starting in 2014. I served in rotational engineering roles spanning all stages of the product life cycle (from preliminary design to post-production support) across the company's Commercial Airplanes, Defense, and Technology business units.
+Prior to joining Joby I was a configuration design engineer with Boeing Research and Technology's Computational Aero Optimization group (2017-2021, intermittently on educational leave). From 2015 to 2017 I worked full-time for Boeing Commercial Airplanes Product Development, running MDO trade studies on jet transport aircraft concepts. Before that, I was a full-time rotational engineer with Boeing's Engineering Career Foundation Program, starting in 2014. I served in rotational engineering roles spanning all stages of the product life cycle (from preliminary design to post-production support) across the company's Commercial Airplanes, Defense, and Technology business units.
 
-I previously earned Master's and Bachelor's degrees in Aerospace Engineering at Michigan and a systems engineering certificate from MIT.
-
-In my spare time, I love exploring the outdoors, especially travelling light and fast in the mountains. My favorite activities include trail running, hiking, ski touring, mountaineering, and cycling. In the past I have maintained the outdoor blog [Elevated](http://bbrelje.wordpress.com/).
+In my spare time, I love exploring the outdoors, especially travelling light and fast in the mountains. My favorite activities include trail running, hiking, ski touring, mountaineering; though now that I am midwest-based for the time being, I have taken up more gravel cycling and cross-country skiing. In the past I have maintained the outdoor blog [Elevated](http://bbrelje.wordpress.com/).
 
 ### About this Site
-This site will serve as a hub for sharing my research (both the exciting results and the gory details and dead ends along the way) and for helping you stay updated on the fast-moving field of electric flight.
+This site was created as a hub for sharing my research (both the exciting results and the gory details and dead ends along the way) and for helping you stay updated on the fast-moving field of electric flight. Since returning to the private sector I unfortunately will not be able to share much, if anything, about my personal research activities but I may share general insights about the field from time to time.
 
 If you are technically inclined, you can view the source code for the site at my GitHub repo below!
 
@@ -30,8 +28,8 @@ If you are technically inclined, you can view the source code for the site at my
 
 As required by the CMSI standard, I will properly attribute the source of the material. If you believe that my use of an image you own does not constitute fair use, please contact me using the comment box.
 
-I do not comment on or publish analysis on stories about my employer, The Boeing Company, for ethical and professional reasons.
+I do not comment on or publish analysis on stories about my current employer for ethical and professional reasons.
 
-Any content presented on this site is expressed solely in a personal capacity and in no way represents the official views of Boeing, the University of Michigan, or the National Science Foundation.
+Any content presented on this site is expressed solely in a personal capacity and in no way represents the official views of Joby, Boeing, the University of Michigan, or the National Science Foundation.
 
 I moderate all comments at my discretion. If you keep it professional I'll approve your comment. If not... I won't.
